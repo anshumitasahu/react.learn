@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar ul {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-bar ul li{
+  list-style-type: none;
+}
+
+.preview {
+  margin-top: 30px;
+}
+
+.input-box {
+  width: 1375px;
+  height: 200px;
+  resize: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
