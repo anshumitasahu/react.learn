@@ -36,13 +36,11 @@ function App() {
 
   
   return (
-    <>
-      <div style={myStyle}>
+      <div className='body' style={myStyle}>
         <Navbar toggleStyle={toggleStyle} setPage={setPage} />
-        {page === "home" && <MainBody />}
+        {page === "home" && <MainBody myStyle={myStyle}/>}
         {page === "about" && <About />}
       </div>
-    </>
   )
 }
 
