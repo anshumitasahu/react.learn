@@ -10,7 +10,7 @@ export default function Navbar({ toggleStyle, setPage }) {
       <div className="nav-bar">
         <ul>
           <li>
-            <button onClick={toggleStyle}>Enable Dark Mode</button>
+            <button onClick={toggleStyle} className="d-lMode">Change Mode</button>
           </li>
           <li onClick={() => setPage("home")}>
             Home
