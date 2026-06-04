@@ -4,11 +4,12 @@
   box-sizing: border-box;
 }
 
-
 .body {
   padding: 30px;
   width: 100vw;
   height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden
 }
 
 nav {
@@ -28,6 +29,9 @@ nav {
 
 .preview {
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .input-box {
@@ -36,4 +40,20 @@ nav {
   resize: none;
   overflow-y: auto;
   overflow-x: hidden;
+  outline: 0;
+  padding: 10px;
+}
+
+.button-area {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  padding: 10px 15px;
+  border: 0;
+  font-size: 16px; 
+  border-radius: 15px;
 }
